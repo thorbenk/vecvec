@@ -1,10 +1,12 @@
 project(vecvec)
 
 cmake_minimum_required(VERSION 2.8)
+set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules)
 
 find_package(HDF5 REQUIRED)
+find_package(Vigra REQUIRED)
 
-include_directories(/home/tkroeger/inst/include)
+include_directories(${VIGRA_INCLUDE_DIR})
 
 add_library(vecvec SHARED vecvec.cxx vecvec_hdf5.cxx)
 
