@@ -1,7 +1,7 @@
 vecvec
 ======
 
-[![Build Status](https://travis-ci.org/thorbenk/vecvec.png?branch=master)](https://travis-ci.org/thorbenk/vecvec)
+[![Build Status](https://travis-ci.org/thorbenk/vecvec.svg?branch=master)](https://travis-ci.org/thorbenk/vecvec)
 
 A serializable replacement for a `std::vector<std::vector<T> >`
 
